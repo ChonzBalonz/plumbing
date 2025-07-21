@@ -64,7 +64,7 @@ const Book = () => {
 						</div>
 					<button
 						type='submit'
-						className="p-3 text-white font-bold px-8 border rounded-md bg-paleBlue hover:opacity-90 active:bg-deepBlue  border-paleBlue duration-100">
+						className="p-3 text-white font-bold px-8 border rounded-md bg-paleBlue hover:opacity-90 active:bg-deepBlue border-paleBlue transform hover:scale-105 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-blue-400 transition-all duration-200">
 						Book Now
 					</button>
 			  </form>

@@ -217,7 +217,7 @@ const ServicePurchase = () => {
 
                   <button
                     type="submit"
-                    className="w-full bg-blue-500 text-white py-3 px-6 rounded-md font-bold hover:bg-blue-600 transition duration-200"
+                    className="w-full bg-blue-500 text-white py-3 px-6 rounded-md font-bold hover:bg-blue-600 transform hover:scale-105 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-blue-400 transition-all duration-200"
                   >
                     Book Service Now
                   </button>

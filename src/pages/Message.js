@@ -37,9 +37,7 @@ const Message = () => {
                      <ValidationError field="email" prefix="Email" errors={state.errors} />
                 <textarea name="message" rows="7" cols="40" className="border rounded-md p-2 focus:outline-blue-500"
                         placeholder="Message here" maxLength="500" /> 
-                    <input className="border p-2 rounded-md text-white bg-[#00183E] hover:opacity-90
-                     active:bg-gray-900
-                  dark:active:bg-deepGreen" type="submit" value="Submit" disabled={state.submitting}
+                    <input className="border p-2 rounded-md text-white bg-[#00183E] hover:opacity-90 active:bg-gray-900 dark:active:bg-deepGreen transform hover:scale-105 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-blue-400 transition-all duration-200" type="submit" value="Submit" disabled={state.submitting}
                     />
             </form>
             </section>

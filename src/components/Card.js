@@ -25,7 +25,7 @@ const Card = ({ image, alt, skill, summary, index }) => {
               {summary}
             </p>
             <div className="mt-4">
-              <button className="bg-blue-500 text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-blue-600 transition-colors duration-200">
+              <button className="bg-blue-500 text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-blue-600 transform hover:scale-105 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-blue-400 transition-all duration-200">
                 Book Now
               </button>
             </div>
