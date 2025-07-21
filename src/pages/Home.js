@@ -27,17 +27,17 @@ const Home = () => {
   return (
     <div>
       <Navbar />
-      <div className="relative h-[620px] w-full flex items-center justify-center">
+      <div className="relative min-h-[60vh] md:h-[620px] w-full flex items-center justify-center">
         <img
           className="h-full w-full bg-image absolute top-0 left-0 right-0 z-0 object-cover"
           src={Image && Image}
           alt="four white ceramic urinal sink"
           style={{ filter: 'brightness(0.5)' }}
         />
-        <div className="py-24 z-10 flex flex-col items-center text-white text-center relative">
-          <h1 className="text-[44px] md:text-[64px] font-bold my-4 animate__animated animate__zoomIn">Quality Plumbing at its best</h1>
-          <p className="text-[20px] md:text-[26px] mb-3">Best plumbing and maintenance company in America</p>
-          <div className="flex gap-5">
+        <div className="py-16 md:py-24 z-10 flex flex-col items-center text-white text-center relative">
+          <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold my-4 animate__animated animate__zoomIn">Quality Plumbing at its best</h1>
+          <p className="text-base sm:text-lg md:text-2xl mb-3">Best plumbing and maintenance company in America</p>
+          <div className="flex flex-col md:flex-row gap-4 md:gap-5 w-full max-w-xs md:max-w-none justify-center items-center">
             <NavLink to="/message">
               <button className="p-3 font-bold px-8 border border-blue-500 bg-blue-500 rounded-md hover:bg-blue-700 hover:border-blue-700 active:bg-blue-800 active:border-blue-800 transform hover:scale-105 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-blue-400 transition-all duration-200">CONTACT US</button>
             </NavLink>
@@ -50,7 +50,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="absolute top-50 bottom-0 left-0 right-0 z-50">
+      <div className="absolute top-50 bottom-0 left-0 right-0 z-50 hidden md:block">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fillOpacity="1" d="M0,224L48,218.7C96,213,192,203,288,186.7C384,171,480,149,576,165.3C672,181,768,235,864,266.7C960,299,1056,309,1152,293.3C1248,277,1344,235,1392,213.3L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
       </div>
       <div ref={servicesRef} className="bg-white dark:bg-gray-800 shadow md:mx-5 rounded-md py-8 my-5 transition-colors duration-300">
